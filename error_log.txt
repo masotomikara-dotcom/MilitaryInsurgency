@@ -1,0 +1,940 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.16.1
+
+> Task :compileJava
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:4: error: cannot find symbol
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+                                      ^
+  symbol:   class FabricItemSettings
+  location: package net.fabricmc.fabric.api.item.v1
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:5: error: package net.minecraft.item does not exist
+import net.minecraft.item.Item;
+                         ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:6: error: package net.minecraft.registry does not exist
+import net.minecraft.registry.Registries;
+                             ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:7: error: package net.minecraft.registry does not exist
+import net.minecraft.registry.Registry;
+                             ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:8: error: cannot find symbol
+import net.minecraft.util.Identifier;
+                         ^
+  symbol:   class Identifier
+  location: package net.minecraft.util
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:11: error: cannot find symbol
+    public static final Item HARDENED_STEEL_PLATE = registerItem("hardened_steel_plate", new Item(new FabricItemSettings()));
+                        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:12: error: cannot find symbol
+    public static final Item KEVLAR_MESH = registerItem("kevlar_mesh", new Item(new FabricItemSettings()));
+                        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:13: error: cannot find symbol
+    public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings()));
+                        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:14: error: cannot find symbol
+    public static final Item CARBON_FIBER_SHEET = registerItem("carbon_fiber_sheet", new Item(new FabricItemSettings()));
+                        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:15: error: cannot find symbol
+    public static final Item COAL_COKE = registerItem("coal_coke", new Item(new FabricItemSettings()));
+                        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:16: error: cannot find symbol
+public static final Item COAL_COKE_DUST = registerItem("coal_coke_dust", new Item(new FabricItemSettings()));
+                    ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:17: error: cannot find symbol
+    public static final Item MOLTEN_COAL_COKE = registerItem("molten_coal_coke", new Item(new FabricItemSettings()));
+                        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:18: error: cannot find symbol
+    public static final Item IRON_COAL_MIX = registerItem("iron_coal_mix", new Item(new FabricItemSettings()));
+                        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:19: error: cannot find symbol
+    public static final Item GOLD_PLATED_STEEL = registerItem("gold_plated_steel", new Item(new FabricItemSettings()));
+                        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:20: error: cannot find symbol
+    public static final Item TACTICAL_UPGRADE_TEMPLATE = registerItem("tactical_upgrade_template", 
+                        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:23: error: cannot find symbol
+    private static Item registerItem(String name, Item item) {
+                                                  ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:23: error: cannot find symbol
+    private static Item registerItem(String name, Item item) {
+                   ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:4: error: package net.minecraft.entity does not exist
+import net.minecraft.entity.EquipmentSlot;
+                           ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:5: error: package net.minecraft.item does not exist
+import net.minecraft.item.ArmorMaterial;
+                         ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:6: error: package net.minecraft.recipe does not exist
+import net.minecraft.recipe.Ingredient;
+                           ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:7: error: package net.minecraft.sound does not exist
+import net.minecraft.sound.SoundEvent;
+                          ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:8: error: package net.minecraft.sound does not exist
+import net.minecraft.sound.SoundEvents;
+                          ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:9: error: cannot find symbol
+import net.minecraft.util.Lazy;
+                         ^
+  symbol:   class Lazy
+  location: package net.minecraft.util
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:13: error: cannot find symbol
+public enum MilitaryArmorMaterials implements ArmorMaterial {
+                                              ^
+  symbol: class ArmorMaterial
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:25: error: cannot find symbol
+    private final SoundEvent equipSound;
+                  ^
+  symbol:   class SoundEvent
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:28: error: cannot find symbol
+    private final Lazy<Ingredient> repairIngredientSupplier;
+                  ^
+  symbol:   class Lazy
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:28: error: cannot find symbol
+    private final Lazy<Ingredient> repairIngredientSupplier;
+                       ^
+  symbol:   class Ingredient
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:30: error: cannot find symbol
+    MilitaryArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+                                                                                                               ^
+  symbol:   class SoundEvent
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:30: error: cannot find symbol
+    MilitaryArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+                                                                                                                                                                                           ^
+  symbol:   class Ingredient
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:42: error: cannot find symbol
+    public int getDurability(EquipmentSlot slot) {
+                             ^
+  symbol:   class EquipmentSlot
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:47: error: cannot find symbol
+    public int getProtectionAmount(EquipmentSlot slot) {
+                                   ^
+  symbol:   class EquipmentSlot
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:57: error: cannot find symbol
+    public SoundEvent getEquipSound() {
+           ^
+  symbol:   class SoundEvent
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:62: error: cannot find symbol
+    public Ingredient getRepairIngredient() {
+           ^
+  symbol:   class Ingredient
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:4: error: cannot find symbol
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+                                      ^
+  symbol:   class FabricItemSettings
+  location: package net.fabricmc.fabric.api.item.v1
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:5: error: package net.minecraft.entity does not exist
+import net.minecraft.entity.EquipmentSlot;
+                           ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:6: error: package net.minecraft.item does not exist
+import net.minecraft.item.ArmorItem;
+                         ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:7: error: package net.minecraft.item does not exist
+import net.minecraft.item.Item;
+                         ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:8: error: package net.minecraft.registry does not exist
+import net.minecraft.registry.Registries;
+                             ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:9: error: package net.minecraft.registry does not exist
+import net.minecraft.registry.Registry;
+                             ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:10: error: cannot find symbol
+import net.minecraft.util.Identifier;
+                         ^
+  symbol:   class Identifier
+  location: package net.minecraft.util
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:13: error: cannot find symbol
+    public static final Item HARDENED_STEEL_HELMET = registerArmor("hardened_steel_helmet", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.HEAD);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:14: error: cannot find symbol
+    public static final Item HARDENED_STEEL_CHESTPLATE = registerArmor("hardened_steel_chestplate", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.CHEST);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:15: error: cannot find symbol
+    public static final Item HARDENED_STEEL_LEGGINGS = registerArmor("hardened_steel_leggings", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.LEGS);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:16: error: cannot find symbol
+    public static final Item HARDENED_STEEL_BOOTS = registerArmor("hardened_steel_boots", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.FEET);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:17: error: cannot find symbol
+    public static final Item KEVLAR_HELMET = registerArmor("kevlar_helmet", MilitaryArmorMaterials.KEVLAR, EquipmentSlot.HEAD);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:18: error: cannot find symbol
+    public static final Item KEVLAR_CHESTPLATE = registerArmor("kevlar_chestplate", MilitaryArmorMaterials.KEVLAR, EquipmentSlot.CHEST);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:19: error: cannot find symbol
+    public static final Item KEVLAR_LEGGINGS = registerArmor("kevlar_leggings", MilitaryArmorMaterials.KEVLAR, EquipmentSlot.LEGS);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:20: error: cannot find symbol
+    public static final Item KEVLAR_BOOTS = registerArmor("kevlar_boots", MilitaryArmorMaterials.KEVLAR, EquipmentSlot.FEET);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:21: error: cannot find symbol
+    public static final Item TITANIUM_HELMET = registerArmor("titanium_helmet", MilitaryArmorMaterials.TITANIUM, EquipmentSlot.HEAD);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:22: error: cannot find symbol
+    public static final Item TITANIUM_CHESTPLATE = registerArmor("titanium_chestplate", MilitaryArmorMaterials.TITANIUM, EquipmentSlot.CHEST);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:23: error: cannot find symbol
+    public static final Item TITANIUM_LEGGINGS = registerArmor("titanium_leggings", MilitaryArmorMaterials.TITANIUM, EquipmentSlot.LEGS);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:24: error: cannot find symbol
+    public static final Item TITANIUM_BOOTS = registerArmor("titanium_boots", MilitaryArmorMaterials.TITANIUM, EquipmentSlot.FEET);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:25: error: cannot find symbol
+    public static final Item CARBON_FIBER_HELMET = registerArmor("carbon_fiber_helmet", MilitaryArmorMaterials.CARBON_FIBER, EquipmentSlot.HEAD);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:26: error: cannot find symbol
+    public static final Item CARBON_FIBER_CHESTPLATE = registerArmor("carbon_fiber_chestplate", MilitaryArmorMaterials.CARBON_FIBER, EquipmentSlot.CHEST);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:27: error: cannot find symbol
+    public static final Item CARBON_FIBER_LEGGINGS = registerArmor("carbon_fiber_leggings", MilitaryArmorMaterials.CARBON_FIBER, EquipmentSlot.LEGS);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:28: error: cannot find symbol
+    public static final Item CARBON_FIBER_BOOTS = registerArmor("carbon_fiber_boots", MilitaryArmorMaterials.CARBON_FIBER, EquipmentSlot.FEET);
+                        ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:30: error: cannot find symbol
+    private static Item registerArmor(String name, MilitaryArmorMaterials material, EquipmentSlot slot) {
+                                                                                    ^
+  symbol:   class EquipmentSlot
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:30: error: cannot find symbol
+    private static Item registerArmor(String name, MilitaryArmorMaterials material, EquipmentSlot slot) {
+                   ^
+  symbol:   class Item
+  location: class MilitaryArmorItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:11: error: cannot find symbol
+    public static final Item HARDENED_STEEL_PLATE = registerItem("hardened_steel_plate", new Item(new FabricItemSettings()));
+                                                                                             ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:11: error: cannot find symbol
+    public static final Item HARDENED_STEEL_PLATE = registerItem("hardened_steel_plate", new Item(new FabricItemSettings()));
+                                                                                                      ^
+  symbol:   class FabricItemSettings
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:12: error: cannot find symbol
+    public static final Item KEVLAR_MESH = registerItem("kevlar_mesh", new Item(new FabricItemSettings()));
+                                                                           ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:12: error: cannot find symbol
+    public static final Item KEVLAR_MESH = registerItem("kevlar_mesh", new Item(new FabricItemSettings()));
+                                                                                    ^
+  symbol:   class FabricItemSettings
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:13: error: cannot find symbol
+    public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings()));
+                                                                                 ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:13: error: cannot find symbol
+    public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings()));
+                                                                                          ^
+  symbol:   class FabricItemSettings
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:14: error: cannot find symbol
+    public static final Item CARBON_FIBER_SHEET = registerItem("carbon_fiber_sheet", new Item(new FabricItemSettings()));
+                                                                                         ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:14: error: cannot find symbol
+    public static final Item CARBON_FIBER_SHEET = registerItem("carbon_fiber_sheet", new Item(new FabricItemSettings()));
+                                                                                                  ^
+  symbol:   class FabricItemSettings
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:15: error: cannot find symbol
+    public static final Item COAL_COKE = registerItem("coal_coke", new Item(new FabricItemSettings()));
+                                                                       ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:15: error: cannot find symbol
+    public static final Item COAL_COKE = registerItem("coal_coke", new Item(new FabricItemSettings()));
+                                                                                ^
+  symbol:   class FabricItemSettings
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:16: error: cannot find symbol
+public static final Item COAL_COKE_DUST = registerItem("coal_coke_dust", new Item(new FabricItemSettings()));
+                                                                             ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:16: error: cannot find symbol
+public static final Item COAL_COKE_DUST = registerItem("coal_coke_dust", new Item(new FabricItemSettings()));
+                                                                                      ^
+  symbol:   class FabricItemSettings
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:17: error: cannot find symbol
+    public static final Item MOLTEN_COAL_COKE = registerItem("molten_coal_coke", new Item(new FabricItemSettings()));
+                                                                                     ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:17: error: cannot find symbol
+    public static final Item MOLTEN_COAL_COKE = registerItem("molten_coal_coke", new Item(new FabricItemSettings()));
+                                                                                              ^
+  symbol:   class FabricItemSettings
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:18: error: cannot find symbol
+    public static final Item IRON_COAL_MIX = registerItem("iron_coal_mix", new Item(new FabricItemSettings()));
+                                                                               ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:18: error: cannot find symbol
+    public static final Item IRON_COAL_MIX = registerItem("iron_coal_mix", new Item(new FabricItemSettings()));
+                                                                                        ^
+  symbol:   class FabricItemSettings
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:19: error: cannot find symbol
+    public static final Item GOLD_PLATED_STEEL = registerItem("gold_plated_steel", new Item(new FabricItemSettings()));
+                                                                                       ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:19: error: cannot find symbol
+    public static final Item GOLD_PLATED_STEEL = registerItem("gold_plated_steel", new Item(new FabricItemSettings()));
+                                                                                                ^
+  symbol:   class FabricItemSettings
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:21: error: cannot find symbol
+    new Item(new net.fabricmc.fabric.api.item.v1.FabricItemSettings().rarity(net.minecraft.util.Rarity.EPIC)));
+        ^
+  symbol:   class Item
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:21: error: cannot find symbol
+    new Item(new net.fabricmc.fabric.api.item.v1.FabricItemSettings().rarity(net.minecraft.util.Rarity.EPIC)));
+                                                                                               ^
+  symbol:   class Rarity
+  location: package net.minecraft.util
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:21: error: cannot find symbol
+    new Item(new net.fabricmc.fabric.api.item.v1.FabricItemSettings().rarity(net.minecraft.util.Rarity.EPIC)));
+                                                ^
+  symbol:   class FabricItemSettings
+  location: package net.fabricmc.fabric.api.item.v1
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:24: error: cannot find symbol
+        return Registry.register(Registries.ITEM, new Identifier(MilitaryInsurgencyMod.MOD_ID, name), item);
+                                 ^
+  symbol:   variable Registries
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:24: error: cannot find symbol
+        return Registry.register(Registries.ITEM, new Identifier(MilitaryInsurgencyMod.MOD_ID, name), item);
+                                                      ^
+  symbol:   class Identifier
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:24: error: cannot find symbol
+        return Registry.register(Registries.ITEM, new Identifier(MilitaryInsurgencyMod.MOD_ID, name), item);
+               ^
+  symbol:   variable Registry
+  location: class MilitaryItems
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:15: error: cannot find symbol
+    HARDENED_STEEL("hardened_steel", 17, new int[]{3, 6, 7, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F, 0.0F, () -> Ingredient.ofItems(MilitaryItems.HARDENED_STEEL_PLATE)),
+                                                                    ^
+  symbol:   variable SoundEvents
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:15: error: cannot find symbol
+    HARDENED_STEEL("hardened_steel", 17, new int[]{3, 6, 7, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F, 0.0F, () -> Ingredient.ofItems(MilitaryItems.HARDENED_STEEL_PLATE)),
+                                                                                                                         ^
+  symbol:   variable Ingredient
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:16: error: cannot find symbol
+    KEVLAR("kevlar", 35, new int[]{3, 7, 9, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.5F, 0.05F, () -> Ingredient.ofItems(MilitaryItems.KEVLAR_MESH)),
+                                                    ^
+  symbol:   variable SoundEvents
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:16: error: cannot find symbol
+    KEVLAR("kevlar", 35, new int[]{3, 7, 9, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.5F, 0.05F, () -> Ingredient.ofItems(MilitaryItems.KEVLAR_MESH)),
+                                                                                                             ^
+  symbol:   variable Ingredient
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:17: error: cannot find symbol
+    TITANIUM("titanium", 40, new int[]{4, 7, 9, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3.5F, 0.1F, () -> Ingredient.ofItems(MilitaryItems.TITANIUM_INGOT)),
+                                                        ^
+  symbol:   variable SoundEvents
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:17: error: cannot find symbol
+    TITANIUM("titanium", 40, new int[]{4, 7, 9, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3.5F, 0.1F, () -> Ingredient.ofItems(MilitaryItems.TITANIUM_INGOT)),
+                                                                                                             ^
+  symbol:   variable Ingredient
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:18: error: cannot find symbol
+    CARBON_FIBER("carbon_fiber", 37, new int[]{4, 8, 10, 4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0F, 0.15F, () -> Ingredient.ofItems(MilitaryItems.CARBON_FIBER_SHEET));
+                                                                 ^
+  symbol:   variable SoundEvents
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:18: error: cannot find symbol
+    CARBON_FIBER("carbon_fiber", 37, new int[]{4, 8, 10, 4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0F, 0.15F, () -> Ingredient.ofItems(MilitaryItems.CARBON_FIBER_SHEET));
+                                                                                                                            ^
+  symbol:   variable Ingredient
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:38: error: cannot find symbol
+        this.repairIngredientSupplier = new Lazy<>(repairIngredientSupplier);
+                                            ^
+  symbol:   class Lazy
+  location: class MilitaryArmorMaterials
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:41: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:46: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:51: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:56: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:61: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:66: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:71: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:76: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:13: error: cannot find symbol
+    public static final Item HARDENED_STEEL_HELMET = registerArmor("hardened_steel_helmet", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.HEAD);
+                                                                                                                                   ^
+  symbol:   variable EquipmentSlot
+  location: class MilitaryArmorItems
+100 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///data/data/com.termux/files/home/MilitaryInsurgency/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:4: error: cannot find symbol
+  import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+                                        ^
+    symbol:   class FabricItemSettings
+    location: package net.fabricmc.fabric.api.item.v1
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:8: error: cannot find symbol
+  import net.minecraft.util.Identifier;
+                           ^
+    symbol:   class Identifier
+    location: package net.minecraft.util
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:11: error: cannot find symbol
+      public static final Item HARDENED_STEEL_PLATE = registerItem("hardened_steel_plate", new Item(new FabricItemSettings()));
+                          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:12: error: cannot find symbol
+      public static final Item KEVLAR_MESH = registerItem("kevlar_mesh", new Item(new FabricItemSettings()));
+                          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:13: error: cannot find symbol
+      public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings()));
+                          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:14: error: cannot find symbol
+      public static final Item CARBON_FIBER_SHEET = registerItem("carbon_fiber_sheet", new Item(new FabricItemSettings()));
+                          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:15: error: cannot find symbol
+      public static final Item COAL_COKE = registerItem("coal_coke", new Item(new FabricItemSettings()));
+                          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:16: error: cannot find symbol
+  public static final Item COAL_COKE_DUST = registerItem("coal_coke_dust", new Item(new FabricItemSettings()));
+                      ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:17: error: cannot find symbol
+      public static final Item MOLTEN_COAL_COKE = registerItem("molten_coal_coke", new Item(new FabricItemSettings()));
+                          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:18: error: cannot find symbol
+      public static final Item IRON_COAL_MIX = registerItem("iron_coal_mix", new Item(new FabricItemSettings()));
+                          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:19: error: cannot find symbol
+      public static final Item GOLD_PLATED_STEEL = registerItem("gold_plated_steel", new Item(new FabricItemSettings()));
+                          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:20: error: cannot find symbol
+      public static final Item TACTICAL_UPGRADE_TEMPLATE = registerItem("tactical_upgrade_template", 
+                          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:23: error: cannot find symbol
+      private static Item registerItem(String name, Item item) {
+                                                    ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:23: error: cannot find symbol
+      private static Item registerItem(String name, Item item) {
+                     ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:9: error: cannot find symbol
+  import net.minecraft.util.Lazy;
+                           ^
+    symbol:   class Lazy
+    location: package net.minecraft.util
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:25: error: cannot find symbol
+      private final SoundEvent equipSound;
+                    ^
+    symbol:   class SoundEvent
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:28: error: cannot find symbol
+      private final Lazy<Ingredient> repairIngredientSupplier;
+                    ^
+    symbol:   class Lazy
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:28: error: cannot find symbol
+      private final Lazy<Ingredient> repairIngredientSupplier;
+                         ^
+    symbol:   class Ingredient
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:30: error: cannot find symbol
+      MilitaryArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+                                                                                                                 ^
+    symbol:   class SoundEvent
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:30: error: cannot find symbol
+      MilitaryArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+                                                                                                                                                                                             ^
+    symbol:   class Ingredient
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:42: error: cannot find symbol
+      public int getDurability(EquipmentSlot slot) {
+                               ^
+    symbol:   class EquipmentSlot
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:47: error: cannot find symbol
+      public int getProtectionAmount(EquipmentSlot slot) {
+                                     ^
+    symbol:   class EquipmentSlot
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:57: error: cannot find symbol
+      public SoundEvent getEquipSound() {
+             ^
+    symbol:   class SoundEvent
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:62: error: cannot find symbol
+      public Ingredient getRepairIngredient() {
+             ^
+    symbol:   class Ingredient
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:4: error: cannot find symbol
+  import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+                                        ^
+    symbol:   class FabricItemSettings
+    location: package net.fabricmc.fabric.api.item.v1
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:10: error: cannot find symbol
+  import net.minecraft.util.Identifier;
+                           ^
+    symbol:   class Identifier
+    location: package net.minecraft.util
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:13: error: cannot find symbol
+      public static final Item HARDENED_STEEL_HELMET = registerArmor("hardened_steel_helmet", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.HEAD);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:14: error: cannot find symbol
+      public static final Item HARDENED_STEEL_CHESTPLATE = registerArmor("hardened_steel_chestplate", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.CHEST);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:15: error: cannot find symbol
+      public static final Item HARDENED_STEEL_LEGGINGS = registerArmor("hardened_steel_leggings", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.LEGS);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:16: error: cannot find symbol
+      public static final Item HARDENED_STEEL_BOOTS = registerArmor("hardened_steel_boots", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.FEET);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:17: error: cannot find symbol
+      public static final Item KEVLAR_HELMET = registerArmor("kevlar_helmet", MilitaryArmorMaterials.KEVLAR, EquipmentSlot.HEAD);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:18: error: cannot find symbol
+      public static final Item KEVLAR_CHESTPLATE = registerArmor("kevlar_chestplate", MilitaryArmorMaterials.KEVLAR, EquipmentSlot.CHEST);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:19: error: cannot find symbol
+      public static final Item KEVLAR_LEGGINGS = registerArmor("kevlar_leggings", MilitaryArmorMaterials.KEVLAR, EquipmentSlot.LEGS);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:20: error: cannot find symbol
+      public static final Item KEVLAR_BOOTS = registerArmor("kevlar_boots", MilitaryArmorMaterials.KEVLAR, EquipmentSlot.FEET);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:21: error: cannot find symbol
+      public static final Item TITANIUM_HELMET = registerArmor("titanium_helmet", MilitaryArmorMaterials.TITANIUM, EquipmentSlot.HEAD);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:22: error: cannot find symbol
+      public static final Item TITANIUM_CHESTPLATE = registerArmor("titanium_chestplate", MilitaryArmorMaterials.TITANIUM, EquipmentSlot.CHEST);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:23: error: cannot find symbol
+      public static final Item TITANIUM_LEGGINGS = registerArmor("titanium_leggings", MilitaryArmorMaterials.TITANIUM, EquipmentSlot.LEGS);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:24: error: cannot find symbol
+      public static final Item TITANIUM_BOOTS = registerArmor("titanium_boots", MilitaryArmorMaterials.TITANIUM, EquipmentSlot.FEET);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:25: error: cannot find symbol
+      public static final Item CARBON_FIBER_HELMET = registerArmor("carbon_fiber_helmet", MilitaryArmorMaterials.CARBON_FIBER, EquipmentSlot.HEAD);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:26: error: cannot find symbol
+      public static final Item CARBON_FIBER_CHESTPLATE = registerArmor("carbon_fiber_chestplate", MilitaryArmorMaterials.CARBON_FIBER, EquipmentSlot.CHEST);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:27: error: cannot find symbol
+      public static final Item CARBON_FIBER_LEGGINGS = registerArmor("carbon_fiber_leggings", MilitaryArmorMaterials.CARBON_FIBER, EquipmentSlot.LEGS);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:28: error: cannot find symbol
+      public static final Item CARBON_FIBER_BOOTS = registerArmor("carbon_fiber_boots", MilitaryArmorMaterials.CARBON_FIBER, EquipmentSlot.FEET);
+                          ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:30: error: cannot find symbol
+      private static Item registerArmor(String name, MilitaryArmorMaterials material, EquipmentSlot slot) {
+                                                                                      ^
+    symbol:   class EquipmentSlot
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:30: error: cannot find symbol
+      private static Item registerArmor(String name, MilitaryArmorMaterials material, EquipmentSlot slot) {
+                     ^
+    symbol:   class Item
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:11: error: cannot find symbol
+      public static final Item HARDENED_STEEL_PLATE = registerItem("hardened_steel_plate", new Item(new FabricItemSettings()));
+                                                                                               ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:11: error: cannot find symbol
+      public static final Item HARDENED_STEEL_PLATE = registerItem("hardened_steel_plate", new Item(new FabricItemSettings()));
+                                                                                                        ^
+    symbol:   class FabricItemSettings
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:12: error: cannot find symbol
+      public static final Item KEVLAR_MESH = registerItem("kevlar_mesh", new Item(new FabricItemSettings()));
+                                                                             ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:12: error: cannot find symbol
+      public static final Item KEVLAR_MESH = registerItem("kevlar_mesh", new Item(new FabricItemSettings()));
+                                                                                      ^
+    symbol:   class FabricItemSettings
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:13: error: cannot find symbol
+      public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings()));
+                                                                                   ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:13: error: cannot find symbol
+      public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings()));
+                                                                                            ^
+    symbol:   class FabricItemSettings
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:14: error: cannot find symbol
+      public static final Item CARBON_FIBER_SHEET = registerItem("carbon_fiber_sheet", new Item(new FabricItemSettings()));
+                                                                                           ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:14: error: cannot find symbol
+      public static final Item CARBON_FIBER_SHEET = registerItem("carbon_fiber_sheet", new Item(new FabricItemSettings()));
+                                                                                                    ^
+    symbol:   class FabricItemSettings
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:15: error: cannot find symbol
+      public static final Item COAL_COKE = registerItem("coal_coke", new Item(new FabricItemSettings()));
+                                                                         ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:15: error: cannot find symbol
+      public static final Item COAL_COKE = registerItem("coal_coke", new Item(new FabricItemSettings()));
+                                                                                  ^
+    symbol:   class FabricItemSettings
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:16: error: cannot find symbol
+  public static final Item COAL_COKE_DUST = registerItem("coal_coke_dust", new Item(new FabricItemSettings()));
+                                                                               ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:16: error: cannot find symbol
+  public static final Item COAL_COKE_DUST = registerItem("coal_coke_dust", new Item(new FabricItemSettings()));
+                                                                                        ^
+    symbol:   class FabricItemSettings
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:17: error: cannot find symbol
+      public static final Item MOLTEN_COAL_COKE = registerItem("molten_coal_coke", new Item(new FabricItemSettings()));
+                                                                                       ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:17: error: cannot find symbol
+      public static final Item MOLTEN_COAL_COKE = registerItem("molten_coal_coke", new Item(new FabricItemSettings()));
+                                                                                                ^
+    symbol:   class FabricItemSettings
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:18: error: cannot find symbol
+      public static final Item IRON_COAL_MIX = registerItem("iron_coal_mix", new Item(new FabricItemSettings()));
+                                                                                 ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:18: error: cannot find symbol
+      public static final Item IRON_COAL_MIX = registerItem("iron_coal_mix", new Item(new FabricItemSettings()));
+                                                                                          ^
+    symbol:   class FabricItemSettings
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:19: error: cannot find symbol
+      public static final Item GOLD_PLATED_STEEL = registerItem("gold_plated_steel", new Item(new FabricItemSettings()));
+                                                                                         ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:19: error: cannot find symbol
+      public static final Item GOLD_PLATED_STEEL = registerItem("gold_plated_steel", new Item(new FabricItemSettings()));
+                                                                                                  ^
+    symbol:   class FabricItemSettings
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:21: error: cannot find symbol
+      new Item(new net.fabricmc.fabric.api.item.v1.FabricItemSettings().rarity(net.minecraft.util.Rarity.EPIC)));
+          ^
+    symbol:   class Item
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:21: error: cannot find symbol
+      new Item(new net.fabricmc.fabric.api.item.v1.FabricItemSettings().rarity(net.minecraft.util.Rarity.EPIC)));
+                                                                                                 ^
+    symbol:   class Rarity
+    location: package net.minecraft.util
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:21: error: cannot find symbol
+      new Item(new net.fabricmc.fabric.api.item.v1.FabricItemSettings().rarity(net.minecraft.util.Rarity.EPIC)));
+                                                  ^
+    symbol:   class FabricItemSettings
+    location: package net.fabricmc.fabric.api.item.v1
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:24: error: cannot find symbol
+          return Registry.register(Registries.ITEM, new Identifier(MilitaryInsurgencyMod.MOD_ID, name), item);
+                                   ^
+    symbol:   variable Registries
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:24: error: cannot find symbol
+          return Registry.register(Registries.ITEM, new Identifier(MilitaryInsurgencyMod.MOD_ID, name), item);
+                                                        ^
+    symbol:   class Identifier
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:24: error: cannot find symbol
+          return Registry.register(Registries.ITEM, new Identifier(MilitaryInsurgencyMod.MOD_ID, name), item);
+                 ^
+    symbol:   variable Registry
+    location: class MilitaryItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:15: error: cannot find symbol
+      HARDENED_STEEL("hardened_steel", 17, new int[]{3, 6, 7, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F, 0.0F, () -> Ingredient.ofItems(MilitaryItems.HARDENED_STEEL_PLATE)),
+                                                                      ^
+    symbol:   variable SoundEvents
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:15: error: cannot find symbol
+      HARDENED_STEEL("hardened_steel", 17, new int[]{3, 6, 7, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F, 0.0F, () -> Ingredient.ofItems(MilitaryItems.HARDENED_STEEL_PLATE)),
+                                                                                                                           ^
+    symbol:   variable Ingredient
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:16: error: cannot find symbol
+      KEVLAR("kevlar", 35, new int[]{3, 7, 9, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.5F, 0.05F, () -> Ingredient.ofItems(MilitaryItems.KEVLAR_MESH)),
+                                                      ^
+    symbol:   variable SoundEvents
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:16: error: cannot find symbol
+      KEVLAR("kevlar", 35, new int[]{3, 7, 9, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.5F, 0.05F, () -> Ingredient.ofItems(MilitaryItems.KEVLAR_MESH)),
+                                                                                                               ^
+    symbol:   variable Ingredient
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:17: error: cannot find symbol
+      TITANIUM("titanium", 40, new int[]{4, 7, 9, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3.5F, 0.1F, () -> Ingredient.ofItems(MilitaryItems.TITANIUM_INGOT)),
+                                                          ^
+    symbol:   variable SoundEvents
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:17: error: cannot find symbol
+      TITANIUM("titanium", 40, new int[]{4, 7, 9, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3.5F, 0.1F, () -> Ingredient.ofItems(MilitaryItems.TITANIUM_INGOT)),
+                                                                                                               ^
+    symbol:   variable Ingredient
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:18: error: cannot find symbol
+      CARBON_FIBER("carbon_fiber", 37, new int[]{4, 8, 10, 4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0F, 0.15F, () -> Ingredient.ofItems(MilitaryItems.CARBON_FIBER_SHEET));
+                                                                   ^
+    symbol:   variable SoundEvents
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:18: error: cannot find symbol
+      CARBON_FIBER("carbon_fiber", 37, new int[]{4, 8, 10, 4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0F, 0.15F, () -> Ingredient.ofItems(MilitaryItems.CARBON_FIBER_SHEET));
+                                                                                                                              ^
+    symbol:   variable Ingredient
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:38: error: cannot find symbol
+          this.repairIngredientSupplier = new Lazy<>(repairIngredientSupplier);
+                                              ^
+    symbol:   class Lazy
+    location: class MilitaryArmorMaterials
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:13: error: cannot find symbol
+      public static final Item HARDENED_STEEL_HELMET = registerArmor("hardened_steel_helmet", MilitaryArmorMaterials.HARDENED_STEEL, EquipmentSlot.HEAD);
+                                                                                                                                     ^
+    symbol:   variable EquipmentSlot
+    location: class MilitaryArmorItems
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:41: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:46: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:51: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:56: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:61: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:66: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:71: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:76: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:13: error: cannot find symbol
+  public enum MilitaryArmorMaterials implements ArmorMaterial {
+                                                ^
+    symbol: class ArmorMaterial
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:5: error: package net.minecraft.item does not exist
+  import net.minecraft.item.Item;
+                           ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:6: error: package net.minecraft.registry does not exist
+  import net.minecraft.registry.Registries;
+                               ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/item/MilitaryItems.java:7: error: package net.minecraft.registry does not exist
+  import net.minecraft.registry.Registry;
+                               ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:4: error: package net.minecraft.entity does not exist
+  import net.minecraft.entity.EquipmentSlot;
+                             ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:5: error: package net.minecraft.item does not exist
+  import net.minecraft.item.ArmorMaterial;
+                           ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:6: error: package net.minecraft.recipe does not exist
+  import net.minecraft.recipe.Ingredient;
+                             ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:7: error: package net.minecraft.sound does not exist
+  import net.minecraft.sound.SoundEvent;
+                            ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorMaterials.java:8: error: package net.minecraft.sound does not exist
+  import net.minecraft.sound.SoundEvents;
+                            ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:5: error: package net.minecraft.entity does not exist
+  import net.minecraft.entity.EquipmentSlot;
+                             ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:6: error: package net.minecraft.item does not exist
+  import net.minecraft.item.ArmorItem;
+                           ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:7: error: package net.minecraft.item does not exist
+  import net.minecraft.item.Item;
+                           ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:8: error: package net.minecraft.registry does not exist
+  import net.minecraft.registry.Registries;
+                               ^
+  /data/data/com.termux/files/home/MilitaryInsurgency/src/main/java/fryantit/insurgency/militaryinsurgency/armor/MilitaryArmorItems.java:9: error: package net.minecraft.registry does not exist
+  import net.minecraft.registry.Registry;
+                               ^
+  100 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 50s
+1 actionable task: 1 executed
